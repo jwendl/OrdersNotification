@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Desktop", "NotificationService.Desktop\NotificationService.Desktop.csproj", "{2A4EA952-785B-4928-B089-21154A5A45AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Web", "NotificationService.Web\NotificationService.Web.csproj", "{AB2BCADF-940E-4D86-9080-0AC9BE771BDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Publisher", "NotificationService.Publisher\NotificationService.Publisher.csproj", "{556B45FC-2C98-4E18-A263-C81EC5D4AC24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Api", "NotificationService.Api\NotificationService.Api.csproj", "{FBECA1C9-2C12-44C9-9ABF-69D1F504427D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Data", "NotificationService.Data\NotificationService.Data.csproj", "{15F4F1E7-5F54-44B4-A1B9-28DE4542DC26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Performance", "Performance", "{BFC0D35B-273D-40F9-91BF-1B63536ACA74}"
+	ProjectSection(SolutionItems) = preProject
+		Performance\RunCrank.bat = Performance\RunCrank.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Crank", "Crank", "{CFED0A74-9A81-445A-8A47-402FBD875A57}"
+	ProjectSection(SolutionItems) = preProject
+		Performance\Crank\CmdLine.dll = Performance\Crank\CmdLine.dll
+		Performance\Crank\crank.exe = Performance\Crank\crank.exe
+		Performance\Crank\crank.exe.config = Performance\Crank\crank.exe.config
+		Performance\Crank\crank.pdb = Performance\Crank\crank.pdb
+		Performance\Crank\Microsoft.AspNet.SignalR.Client.dll = Performance\Crank\Microsoft.AspNet.SignalR.Client.dll
+		Performance\Crank\Microsoft.AspNet.SignalR.Client.pdb = Performance\Crank\Microsoft.AspNet.SignalR.Client.pdb
+		Performance\Crank\Microsoft.AspNet.SignalR.Client.xml = Performance\Crank\Microsoft.AspNet.SignalR.Client.xml
+		Performance\Crank\Microsoft.AspNet.SignalR.Core.dll = Performance\Crank\Microsoft.AspNet.SignalR.Core.dll
+		Performance\Crank\Microsoft.AspNet.SignalR.Core.pdb = Performance\Crank\Microsoft.AspNet.SignalR.Core.pdb
+		Performance\Crank\Microsoft.AspNet.SignalR.Core.xml = Performance\Crank\Microsoft.AspNet.SignalR.Core.xml
+		Performance\Crank\Microsoft.Owin.Diagnostics.dll = Performance\Crank\Microsoft.Owin.Diagnostics.dll
+		Performance\Crank\Microsoft.Owin.Diagnostics.xml = Performance\Crank\Microsoft.Owin.Diagnostics.xml
+		Performance\Crank\Microsoft.Owin.dll = Performance\Crank\Microsoft.Owin.dll
+		Performance\Crank\Microsoft.Owin.Host.HttpListener.dll = Performance\Crank\Microsoft.Owin.Host.HttpListener.dll
+		Performance\Crank\Microsoft.Owin.Host.HttpListener.xml = Performance\Crank\Microsoft.Owin.Host.HttpListener.xml
+		Performance\Crank\Microsoft.Owin.Hosting.dll = Performance\Crank\Microsoft.Owin.Hosting.dll
+		Performance\Crank\Microsoft.Owin.Hosting.xml = Performance\Crank\Microsoft.Owin.Hosting.xml
+		Performance\Crank\Microsoft.Owin.Security.dll = Performance\Crank\Microsoft.Owin.Security.dll
+		Performance\Crank\Microsoft.Owin.Security.xml = Performance\Crank\Microsoft.Owin.Security.xml
+		Performance\Crank\Microsoft.Owin.xml = Performance\Crank\Microsoft.Owin.xml
+		Performance\Crank\Newtonsoft.Json.dll = Performance\Crank\Newtonsoft.Json.dll
+		Performance\Crank\Newtonsoft.Json.xml = Performance\Crank\Newtonsoft.Json.xml
+		Performance\Crank\Owin.dll = Performance\Crank\Owin.dll
+		Performance\Crank\TPlan.Perf.xml = Performance\Crank\TPlan.Perf.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD953D7A-2D2D-49AA-B132-57A5BB487706}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A4EA952-785B-4928-B089-21154A5A45AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4EA952-785B-4928-B089-21154A5A45AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4EA952-785B-4928-B089-21154A5A45AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4EA952-785B-4928-B089-21154A5A45AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2BCADF-940E-4D86-9080-0AC9BE771BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2BCADF-940E-4D86-9080-0AC9BE771BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2BCADF-940E-4D86-9080-0AC9BE771BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2BCADF-940E-4D86-9080-0AC9BE771BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{556B45FC-2C98-4E18-A263-C81EC5D4AC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556B45FC-2C98-4E18-A263-C81EC5D4AC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556B45FC-2C98-4E18-A263-C81EC5D4AC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556B45FC-2C98-4E18-A263-C81EC5D4AC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBECA1C9-2C12-44C9-9ABF-69D1F504427D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBECA1C9-2C12-44C9-9ABF-69D1F504427D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBECA1C9-2C12-44C9-9ABF-69D1F504427D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBECA1C9-2C12-44C9-9ABF-69D1F504427D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F4F1E7-5F54-44B4-A1B9-28DE4542DC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F4F1E7-5F54-44B4-A1B9-28DE4542DC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F4F1E7-5F54-44B4-A1B9-28DE4542DC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F4F1E7-5F54-44B4-A1B9-28DE4542DC26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFED0A74-9A81-445A-8A47-402FBD875A57} = {BFC0D35B-273D-40F9-91BF-1B63536ACA74}
+	EndGlobalSection
+EndGlobal
